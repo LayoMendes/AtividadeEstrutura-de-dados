@@ -4,7 +4,7 @@ import java.util.*;
 public class Principal {
     public static void main(String[] args) {
         // Nome do arquivo com números aleatórios (exemplo: numeros_tamanho100.txt)
-        String inputFileName = "numeros_tamanho1000.txt"; // Altere conforme necessário
+        String inputFileName = "numeros_tamanho1000000.txt"; // Altere conforme necessário
         List<Integer> numbers = readNumbersFromFile(inputFileName);
 
         if (numbers == null) {
@@ -14,6 +14,9 @@ public class Principal {
         long startTime = System.nanoTime();
         long endTime = System.nanoTime();
 
+
+
+        
         // Testando BubbleSort
         int[] bubbleArray = listToArray(numbers);
         startTime = System.nanoTime();
